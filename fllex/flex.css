@@ -1,0 +1,44 @@
+
+ul.flex{
+  list-style-type:none;
+  display: flex; 
+  gap: 8px;
+  
+  min-width:350px;
+  max-width: 500px;
+
+  flex-grow: 100px;
+  flex-shrink: 100px;
+
+
+}  
+
+ul.flex li:first-child{
+  height: 150px;
+  width: 250px;
+  background-color: red;
+}
+  
+ul.flex li:nth-child(2) {
+  height: 150px;
+  width: 250px;
+  background-color: orange;
+}
+
+ul.flex li:first-child{
+  height: 150px;
+  width: 250px;
+  background-color: red;
+}
+  
+ul.flex li:nth-child(3) {
+  height: 150px;
+  width: 250px;
+  background-color: yellow;
+}
+
+ul.flex li:last-child {
+  height: 150px;
+  width: 250px;
+  background-color:blue;
+}
