@@ -1,0 +1,5 @@
+good refernce to flex app
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+flex game 
+https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37368390#overview
