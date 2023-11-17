@@ -1,0 +1,74 @@
+.grid{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-areas:
+     'menu menu header header header header'
+     'menu menu header header header header'
+     'menu menu header header header header'
+     'menu menu header header header header'
+     'left left main main main right'
+     'left left main main main right'
+     'left left main main main spam'
+     'left left main main main spam'
+     'footer footer footer footer footer spam ';
+    background-color: black;
+    gap: 5px;
+}
+
+.grid > div{
+  background-color: antiquewhite;
+}
+
+.grid > div:nth-child(1) {
+  grid-area: menu;
+  background-color: rgba(168, 5, 5, 0.8);
+  text-align: center;
+}
+
+.grid > div:nth-child(2) {
+  grid-area: header;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.grid > div:nth-child(3) {
+  grid-area: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.grid > div:nth-child(4) {
+  grid-area: main;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.grid > div:nth-child(5) {
+  grid-area: right;
+  height: 90%;
+  background-color: rgba(53, 102, 207, 0.8);
+  text-align: center;
+}
+
+.grid > div:nth-child(6) {
+  grid-area: spam;
+  background-color: rgba(19, 24, 70, 0.8);
+  text-align: center;
+}
+
+.grid > div:nth-child(7) {
+  grid-column: span 2;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+
+
+.grid > div:nth-child(8) {
+  grid-column: span 3;
+  width: 50%;
+  background-color: rgba(248, 253, 108, 0.8);
+  text-align: center;
+}
+

@@ -1,0 +1,20 @@
+
+.bord{
+    display: grid;
+    grid-template-columns:(8, 100px);
+    grid-template-rows:(8, 100px);
+    justify-content: center;
+}
+
+.bord > * {
+    width: 100px;
+    height: 100px;
+}
+
+.black{
+    background-color: rgb(50, 28, 0);
+}
+
+.white{
+    background-color:rgb(232, 133, 3);
+}
