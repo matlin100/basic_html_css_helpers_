@@ -3,15 +3,15 @@
     width: 500px;
     display: grid;
     grid-template-areas:
-     'menu menu header header header header'
-     'menu menu header header header header'
-     'menu menu header header header header'
-     'menu menu header header header header'
-     'left left main main main right'
-     'left left main main main right'
-     'left left main main main spam'
-     'left left main main main spam'
-     'footer footer footer footer footer spam ';
+     'menu menu menu header header header header header'
+     'menu menu menu header header header header header'
+     'menu menu menu header header header header header'
+     'menu menu menu header header header header header'
+     'left left left main main main main right'
+     'left left left main main main main right'
+     'left left left main main main main spam'
+     'left left left main main main main spam'
+     'footer footer footer  footer footer footer footer spam ';
     background-color: black;
     gap: 5px;
 }
