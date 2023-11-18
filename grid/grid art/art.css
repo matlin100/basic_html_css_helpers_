@@ -1,14 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
 .grid{
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 700px;
     display: grid;
     grid-template-areas:
      'menu menu menu header header header header header'
      'menu menu menu header header header header header'
      'menu menu menu header header header header header'
      'menu menu menu header header header header header'
+     'menu menu menu header header header header header'
+     'menu menu menu header header header header header'
      'left left left main main main main right'
      'left left left main main main main right'
+     'left left left main main main main right'
+     'left left left main main main main spam'
      'left left left main main main main spam'
      'left left left main main main main spam'
      'footer footer footer  footer footer footer footer spam ';
@@ -53,22 +66,25 @@
 
 .grid > div:nth-child(6) {
   grid-area: spam;
-  background-color: rgba(19, 24, 70, 0.8);
+  background-color:rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 
 .grid > div:nth-child(7) {
-  grid-column: span 2;
+  grid-column: span 3;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 
 
-
 .grid > div:nth-child(8) {
-  grid-column: span 3;
-  width: 50%;
+  grid-column: span 2;
   background-color: rgba(248, 253, 108, 0.8);
   text-align: center;
 }
 
+.grid > div:nth-child(9) {
+  grid-column: span 2;
+  background-color: rgba(51, 35, 25, 0.8);
+  text-align: center;
+}
