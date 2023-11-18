@@ -1,0 +1,27 @@
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 4px;
+}
+
+.grid > div:first-child{
+    grid-row:span 3 ;
+    background-color: aqua;
+}
+.grid > div:nth-child(2){
+    grid-row: span 2 ;
+    grid-column: span 2;
+    background-color: rgb(115, 212, 204);
+}
+
+.grid > div:nth-child(3){
+   grid-row: span 2;
+   background-color: turquoise;
+   }
+
+.grid > div:nth-child(4){
+    grid-column: span 3;
+    background-color: deepskyblue;
+}   
